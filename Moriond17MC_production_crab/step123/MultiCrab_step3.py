@@ -18,7 +18,7 @@ def prepare(dataset):
 
 def submit(official):
     print "submitting"
-    f = open('step3_inputdataset.txt','r')
+    f = open('step4_inputdataset.txt','r')
     for line in f:
         print line
         a=[]
